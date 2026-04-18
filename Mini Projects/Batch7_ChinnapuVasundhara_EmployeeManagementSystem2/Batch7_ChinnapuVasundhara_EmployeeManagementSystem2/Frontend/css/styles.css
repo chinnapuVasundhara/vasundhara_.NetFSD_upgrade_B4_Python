@@ -1,0 +1,25 @@
+body { background-color: #6ce9f7; }
+.view-section { animation: fadeIn 0.3s ease-in-out; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+.table-hover tbody tr:hover { background-color: #88baec; cursor: default; }
+.sortable { cursor: pointer; user-select: none; }
+.sortable:hover { background-color: #e9ecef; }
+
+.avatar-circle {
+    width: 35px; height: 35px; border-radius: 50%; display: flex;
+    align-items: center; justify-content: center; color: white;
+    font-weight: bold; font-size: 14px;
+}
+
+/* Badge specific styling overrides */
+.badge-engineering { background-color: #4ec0f1; }
+.badge-marketing { background-color: #960c4f; }
+.badge-hr { background-color: #590ccb; }
+.badge-finance { background-color: #80e586; }
+.badge-operations { background-color: #470bec; }
+
+.dept-bar {
+    height: 8px; border-radius: 4px;
+}
+.cursor-pointer { cursor: pointer; }
